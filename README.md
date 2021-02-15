@@ -28,7 +28,7 @@ Once this was accomplished I calculated the percentage of plays that were succes
 
 Here is what the table looked like:
 
-![](/resources/Table-outcomes-goals.PNG)
+![](/Resources/Table-outcomes-goals.PNG)
 
 Using this table I constructed a line graph where on the y-axis I plotted the percent of the campaigns that were successfull, failed and were cancelled and on the x-axis I ploted the campaign goal ranges:
 
@@ -36,5 +36,17 @@ Using this table I constructed a line graph where on the y-axis I plotted the pe
 
 
 ## Results
+
+### Analysis of 2017 stock
+
+With the refactored code, the time to run the analysis for year of 2017 and generate the same results decreased ~4.9x from ~0.921875 seconds to 0.1875 seconds:
+
+![](Resources/VBA_Challenge_2017.png)
+
+### Analysis of 2018 stock
+
+With the refactored code, the time to run the analysis for year of 2018 and generate the same results decreased ~3x from ~0.796875 seconds to 0.265625 seconds:
+
+![](Resources/VBA_Challenge_2018.png)
 
 
