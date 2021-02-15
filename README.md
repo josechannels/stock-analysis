@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of this project was to try rewrite (refactor) the original code for the stock analysis that Steve prepared for his parents with the aim to run the code faster.
+The purpose of this project was to rewrite (refactor) the original code for the stock analysis that Steve prepared for his parents with the aim to run the code faster.
 
 ### Analysis of Outcomes Based on Launch Date
 To analyze the relation between the outcome of a theater campaign and the date the campaign was launched I created a pivot table from the master data filtered to contain only data from theater campaigns for all years in the database.  The sum of the different outcomes were shown per month in rows.
