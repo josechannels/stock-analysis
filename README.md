@@ -3,7 +3,8 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of this project was to rewrite (refactor) the original code for the stock analysis that Steve prepared for his parents with the aim to run the code faster.
+The initial purpose of the project was to help Steve write a script that calculated the total daily volume and the percent return for each of the 11 stocks that his parents were interested in following for the years of 2017 and 2018.  
+Once the code was succefully writen to complete the analysis, the code was rewriten (refactored) to try to improve the time it took for the analysis to complete (for the code to run).
 
 ### Analysis of Outcomes Based on Launch Date
 To analyze the relation between the outcome of a theater campaign and the date the campaign was launched I created a pivot table from the master data filtered to contain only data from theater campaigns for all years in the database.  The sum of the different outcomes were shown per month in rows.
@@ -39,14 +40,23 @@ Using this table I constructed a line graph where on the y-axis I plotted the pe
 
 ### Analysis of 2017 stock
 
-With the refactored code, the time to run the analysis for year of 2017 and generate the same results decreased ~4.9x from ~0.921875 seconds to 0.1875 seconds:
+The analysis shows that with the exception of the "TERP" stock, all stocks had a positive return for the year of 2017.  
+The median return was 41.5% and the mean return was 67.3%.
 
-![](Resources/VBA_Challenge_2017.png)
+With the refactored code, the time to run the analysis for the year of 2017 and generate the same results decreased ~4.9x from ~0.921875 seconds to 0.1875 seconds:
+
+![](Resources/VBA_Challenge_2017.PNG)
 
 ### Analysis of 2018 stock
 
-With the refactored code, the time to run the analysis for year of 2018 and generate the same results decreased ~3x from ~0.796875 seconds to 0.265625 seconds:
+The analysis shows that in 2018 ten out of twelve stocks had negative returns.  
+The median return was -12%. The mean return was -8.5%.
+The only two stocks with positive returns were "ENPH" and "RUN" with returns of 81.9% and 84.0%.
 
-![](Resources/VBA_Challenge_2018.png)
+With the refactored code, the time to run the analysis for the year of 2018 and generate the same results decreased ~3x from ~0.796875 seconds to 0.265625 seconds:
+
+![](Resources/VBA_Challenge_2018.PNG)
+
+##Summary
 
 
