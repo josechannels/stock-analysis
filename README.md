@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The initial purpose of the project was to help Steve write a script that calculated the total daily volume and the percent return for each of the 11 stocks that his parents were interested in following for the years of 2017 and 2018.  
+The initial purpose of the project was to help Steve write a script that calculated the total daily volume and the percent return for each of the 12 stocks that his parents were interested in following for the years of 2017 and 2018.  
 
 Once the code was succefully writen to complete the analysis, the code was rewriten (refactored) to try to improve the time it took for the analysis to complete (for the code to run).
 
