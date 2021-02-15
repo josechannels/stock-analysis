@@ -22,7 +22,7 @@ With the refactored code, the time to run the analysis for the year of 2017 and 
 ### Analysis of 2018 stock
 
 The analysis shows that in 2018 ten out of twelve stocks had negative returns.  
-The median return was -12%. The mean return was -8.5%.
+The median return was -12% while the mean return was -8.5%.
 The only two stocks with positive returns were "ENPH" and "RUN" with returns of 81.9% and 84.0%.
 
 With the refactored code, the time to run the analysis for the year of 2018 and generate the same results decreased ~3x from ~0.796875 seconds to 0.265625 seconds:
