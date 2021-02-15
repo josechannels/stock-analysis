@@ -23,6 +23,7 @@ To analyze the relation between the initial goal set and the outcome for a play 
 3. the goal of the campaign was smaller or equal to the highest value in the goal range,
 4. the campaign outcome was defined as "success" (column B), "failed" (column C) or canceled (column D).
 
+
 an example of a such statement: ```=COUNTIFS(Data!R:R,"plays",Data!$D:$D,">=25000",Data!$D:$D,"<=29999",Data!$F:$F,"Canceled")```
 
 Once this was accomplished I calculated the percentage of plays that were succesfull (column F), failed (column G) and canceled (H) by dividing the number of each outcome by the total number of plays and formating the column to percentage.
@@ -57,6 +58,14 @@ With the refactored code, the time to run the analysis for the year of 2018 and 
 
 ![](Resources/VBA_Challenge_2018.PNG)
 
-##Summary
+## Summary
 
+### Advantages and disadvantages of refactoring code in general
+The advantages of refactoring code potentially include:
+1. make code run faster,
+2. make code easier to follow and to improve upon by adding additional comments,
+3. remove bugs with original code and add improvements.
 
+The disadvantages of refactoring code potentially include:
+1. It takes time to refactor code,
+2. It may introduce bugs if not checked carefully,
