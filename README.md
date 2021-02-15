@@ -31,10 +31,7 @@ With the refactored code, the time to run the analysis for the year of 2018 and 
 
 ### Significant Code Refactoring that led to improved performance
 
-The most important change made to the original code was to create a ticker index ('''tickerIndex''') and 3 arrays: for the Stock ticker daily Volume ('''tickerVolumes'''), for the starting price of the stock ('''tickerstartingprices''') and for the ending price of the stock ('''tickerEndingPrices''').
-
-an example of a such statement: ```=COUNTIFS(Data!R:R,"plays",Data!$D:$D,">=25000",Data!$D:$D,"<=29999",Data!$F:$F,"Canceled")```
-
+The most important change made to the original code was to create a ticker index (```tickerIndex```) and 3 arrays: for the Stock ticker total daily Volume (```tickerVolumes```), for the starting price of the stock (```tickerStartingPrices```) and for the ending price of the stock (```tickerEndingPrices```).
 
 ## Summary
 
@@ -48,6 +45,7 @@ The disadvantages of refactoring code potentially include:
 1. It takes time to refactor code,
 2. It may introduce bugs if not checked carefully.
 
-### Advantages and disadvantages of refactoring code in general
-In this particular case the refactoring of the code significantly improved the time it took to perform the stock analysis.
+### Advantages and disadvantages of refactoring the code to analyze stock
+In this particular case refactoring of the code significantly improved the time it took to perform the stock analysis.  
+A disadvantage of refactoring the code was that in an effort to make it run faster, I made a mistake where to introduce the statement to increase the tickerindex increase (```tickerIndex = tickerIndex + 1```) that led to a bug that took me 3 days to discover.
 
